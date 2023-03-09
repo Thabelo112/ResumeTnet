@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thabelo netsianda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8a031624f2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+    <!--home-->
+    <div id="header">
+        <div id="container">
+            <nav> 
+                <h1>T<span>habelo</span></h1> 
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">service</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#contact">contacts</a></li>
+                    <i class="fa-solid fa-xmark" onclick ="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick ="openmenu()"></i>
+            </nav>
+            <p class="headP">HI , I am <span>THABELO NETSIANDA</span> from South Africa <br> in past i have used Web Tools: JavaScript, jQuery, CSS, PHP, HTML, XHTML, XML, AngularJS, Bootstrap, <br> Java, .Net, ASP.NET, Python, MySQL, GitHub, Apache Flex, JavaFX, REST, SOAP, cPanel, Google Analytics, WordPress <br>
+                Adobe Creative Cloud: Photoshop, Lightroom, Illustrator, InDesign, Experience Design, Premiere Pro, After Effects, Animate, Dreamweaver, Fuse, Adobe Muse, Acrobat Pro DC
+            </p>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div id="container">
+            <div class="row">
+              <div class="col-1-left">
+                <img src="images/IMG-20220206-WA0008.jpg" >
+              </div>
+              <div class="col-2-right">
+                <h1>About me</h1><hr>
+                <p>Junior Web developer able to build a Web presence from the ground up -- from concept, navigation, layout and programming to UX and SEO. <br>
+                    Skilled at writing well-designed, testable and <br> efficient code using current best practices in Web development. <br>
+                    Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.</p>
+                <div class="tab-titles">
+               <p class="tab-links Active-links" onclick="opentab('skills')">skills</p>
+               <p class="tab-links" onclick="opentab('Education')">Education</p>
+               <p class="tab-links" onclick="opentab('exprience')">exprience</p>
+               </div>
+               <div class="tab-contents Active-tabs" id="skills" >
+                <ul>
+                <li><span>UX/UI</span><br>Design website+</li>
+                <li><span>Wordpress</span><br>Securing website</li>
+                <li><span>Back/front-end dev</span><br>responsive web</li>
+                </ul>
+               
+               </div> <div class="tab-contents" id="Education">
+               
+                <ul>
+                    <li><span>2015-2019</span><br>Matric</li>
+                    <li><span>2020-2022</span><br> Diploma Information Technology</li>
+                    
+                </ul>
+               
+               </div> <div class="tab-contents" id="exprience">
+                <ul>
+                    <li> <span>0-1 year</span><br>coding proffesional</li>
+                    <li><span>3+ year</span><br>Knowlegde of website</li>
+                </ul>
+               </div>
+              </div>
+            </div>
+            
+        </div>
+    <!--service--->
+
+<div id="services">
+    <div class="container">
+        <div class="sublist">My Service</div>
+        <div class="service-list">
+            <div> 
+                <i class="fa-solid fa-code"></i>
+                <h2>Create website and maintain </h2>
+                <p>R1550 <br>for 5 user </p>
+                <a href="#">Learn More</a>
+             </div> 
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>UX/UI Designer</h2>
+                <p>web Developer</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                
+ 
+ 
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>web Designer</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque mollitia perspiciatis dolorum velit porro culpa,<br> laudantium, nemo delectus voluptatum iure ut aliquid sint esse, iusto est. <br> Obcaecati maxime doloremque voluptatum!</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---portfolio-->
+
+<div id="portfolio">
+    <div id="conteiner">
+        <h1 class="sublist">subjects done</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="images/istockphoto-1338863489-170667a.jpg" >
+            <div class="layer">
+                <h3>1+ year</h3>
+                <p>Information system <br> development software <br> entrepreneurship <br> system software <br> applied communication skills <br> IT skills :legal aspects</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/istockphoto-1398247146-170667a.jpg" > 
+            <div class="layer">
+                <h3>2+ year</h3>
+                <p>Business Analysis <br>Information system <br> web development <br>  development software <br>system software <br> applied communication skills </p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/istockphoto-1434616996-170667a.jpg" >
+            <div class="layer">
+                <h3>3+ year</h3>
+                <p>Business Analysis <br>  development software <br>system software</p>
+            </div>
+          </div>
+          
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+<!--contacts-->
+
+<div id="contact">
+    <div class="conteirner">
+        <div class="row">
+            <div class="contact-left">
+
+                <h1 class="sublist"> contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>netsiandathabelotabie@gmail.com</p> 
+                <p><i class="fa-sharp fa-solid fa-phone"></i>0679146835</p>
+                <p><i class="fa-solid fa-location-dot"></i>296 justice Mohamed <br>1008 backlysqure flat <br>South Africa</p> 
+                 <div class="socialMedia">
+                    <a href="https://www.linkedin.com/in/Tnetsianda" target="-blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="tel:0679146835"><i class="fa-sharp fa-solid fa-phone"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100074296848239&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href ="mailto:netsiandathabelotabie@gmail.com" target="_blank"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+                    
+                   
+                 </div>
+                <a href="images/resume.pdf"  download target="_blank" class="btn btn2"> download cv</a>
+            </div>
+           <div class="contact-right">
+           <form name="submit-to-google-sheet" >
+                <p>Please leave a message</p>  
+                <input type="text" name="Name" placeholder="your name" required>
+                <input type="email" name="Email" placeholder="your email"required>
+                
+                <textarea name="Message"  rows="8" placeholder="your Message"  required></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+
+           </form>  
+              <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+            copyright@Thabelo made by Black Steel Opertion
+        </p>
+    </div>
+</div>
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("Active-links");
+}
+for( tabcontent of tabcontents){
+    tabcontent.classList.remove("Active-tabs");
+}
+event.currentTarget.classList.add("Active-links");
+document.getElementById(tabname).classList.add("Active-tabs");
+}
+</script> 
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyo0UvKkpzEB79oMPW244eQgEQDjndGGoPv3twTnqYgeiPada1X1YoMZDVuOH35XGyJHA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "succefully submitted"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
